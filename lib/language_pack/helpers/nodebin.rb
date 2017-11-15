@@ -14,7 +14,7 @@ class LanguagePack::Helpers::Nodebin
     version = "6.11.1"
     {
       "number" => version,
-      "url"    => "https://s3pository.heroku.com/node/v#{version}/node-v#{version}-linux-x64.tar.gz"
+      "url"    => "https://s3-eu-west-1.amazonaws.com/bsa-prod-buildpack-resources/node/node-v#{version}-linux-x64.tar.gz"
     }
   end
 
